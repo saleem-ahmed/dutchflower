@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "Gotham", sans-serif;
+  src: url(./assets/Gotham-Font/GothamMedium.ttf);
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Gotham", sans-serif;
+}
+.nav-btn {
+  background-color: #272727;
+  padding: 18px 0px;
+}
+.nav-btn img {
+  width: 20px;
+  height: 20px;
+  margin: 0px 10px;
+}
+.nav-btn a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* navabr */
+
+.navbar .navbar-nav .nav-item .nav-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+
+  color: #272727 !important;
+}
+.navbar form img {
+  width: 18px;
+  height: 18px;
+  margin: 0px 10px;
+}
+.navbar form .btn {
+  color: #ffffff;
+  background-color: #f1652a;
+  border: 1px solid #f1652a;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
+.navbar form .btn-outline {
+  color: #f1652a;
+  background-color: transparent;
+  border: 1px solid #f1652a;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  margin: 0px 15px;
+}
+/* navabr */
+/* home-header */
+.home-header {
+  background-color: #f3f3f3;
+}
+.home-header .col-lg-7 {
+    padding-right: 49px;
+}
+.home-header h1 {
+    font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  letter-spacing: 0.05em;
+  color: #272722;
+}
+.home-header p{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #626262;
+    margin: 18px 0px;
+}
+.home-header button{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background-color: #F1652A;
+    width: 40%;
+    margin-top: 30px;
+}
+/* home-header */
