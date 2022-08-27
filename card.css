@@ -69,7 +69,7 @@
   padding-top: 100px;
   background-image: url(./assets/images/blog-bg.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   height: 74vh;
   color: #ffffff;
 }
@@ -88,6 +88,14 @@
   color: #ffffff;
 }
 
+@media screen and (max-width:600px) {
+  .trends .bbb_background h2 {
+    font-size: 26px;
+}
+.trends .bbb_background p {
+  font-size: 12px;
+}
+}
 /* testimonial */
 
 .testimonial {
